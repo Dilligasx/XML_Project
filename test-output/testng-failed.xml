@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression ]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AddContactTest(failed)">
+    <parameter name="Zip" value="a75081"/>
+    <parameter name="CompanyName" value="Techfios"/>
+    <parameter name="UserName" value="demo@techfios.com"/>
+    <parameter name="Email" value="testng@gmail.com"/>
+    <parameter name="Address" value="Techfios building"/>
+    <parameter name="Phone" value="c231546"/>
+    <parameter name="State" value="TX"/>
+    <parameter name="FullName" value="TestNG"/>
+    <parameter name="Country" value="United States"/>
+    <parameter name="City" value="Carrolton"/>
+    <parameter name="Password" value="abc123"/>
+    <classes>
+      <class name="test.AddContactTest">
+        <methods>
+          <include name="validUSerShouldBeAbleToAddCustomerOnListCustomerPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.AddContactTest -->
+    </classes>
+  </test> <!-- AddContactTest(failed) -->
+</suite> <!-- Failed suite [Regression ] -->
