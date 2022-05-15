@@ -9,10 +9,32 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Regression </th></tr>
-<tr><td><a href="#t0">AddContactTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">7,815</td><td></td><td></td></tr>
+<tr><td><a href="#t0">AddContactTest</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">2,380</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Regression </th></tr></tbody><tbody id="t0"><tr><th colspan="4">AddContactTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">test.AddContactTest</td><td><a href="#m0">validUSerShouldBeAbleToAddCustomerOnListCustomerPage</a></td><td rowspan="1">1648595606216</td><td rowspan="1">7794</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Regression </th></tr></tbody><tbody id="t0"><tr><th colspan="4">AddContactTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">test.AddContactTest</td><td><a href="#m0">validUSerShouldBeAbleToAddCustomerOnListCustomerPage</a></td><td rowspan="1">1652622903027</td><td rowspan="1">2356</td></tr></tbody>
 </table>
-<h2>AddContactTest</h2><h3 id="m0">test.AddContactTest#validUSerShouldBeAbleToAddCustomerOnListCustomerPage</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr><tr class="param stripe"><td>demo@techfios.com</td><td>abc123</td><td>TestNG</td><td>Techfios</td><td>testng@gmail.com</td><td>c231546</td><td>Techfios building</td><td>Carrolton</td><td>TX</td><td>a75081</td><td>United States</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>AddContactTest</h2><h3 id="m0">test.AddContactTest#validUSerShouldBeAbleToAddCustomerOnListCustomerPage</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr><tr class="param stripe"><td>demo@techfios.com</td><td>abc123</td><td>TestNG</td><td>Techfios</td><td>testng@gmail.com</td><td>c231546</td><td>Techfios building</td><td>Carrolton</td><td>TX</td><td>a75081</td><td>United States</td></tr><tr><th colspan="11">Exception</th></tr><tr><td colspan="11"><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 98
+Current browser version is 101.0.4951.67 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-JRIMQ69&apos;, ip: &apos;192.168.10.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:108)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:106)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:93)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:48)
+	at util.BrowserFactory.init(BrowserFactory.java:41)
+	at test.AddContactTest.validUSerShouldBeAbleToAddCustomerOnListCustomerPage(AddContactTest.java:55)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
